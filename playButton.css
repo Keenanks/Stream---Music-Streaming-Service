@@ -1,0 +1,85 @@
+/*.button {
+  color: black;
+  background-color: #9ebfc1;
+  font-weight: bold;
+  padding: 14px 20px;
+  margin: 8px 0;
+  border: none;
+  cursor: pointer;
+  width: 25%;
+  border-radius: 25px;
+  padding: 20px;
+  position: fixed;
+}*/
+
+
+.playButton {
+  background-color: #F3F3F3;
+  border-color: #F3F3F3;
+  font-size: 20px;
+  cursor: pointer;
+  padding: 0px;
+
+}
+/*.SongNameClick{}*/
+.SongNameClick:hover
+{
+    color: #9ebfc1;
+    cursor: pointer;
+}
+.playButton:focus {
+    outline-style: none;
+}
+
+.playDiv {
+    text-align: left;
+    max-height: 50%;
+    bottom: 30%;
+}
+
+#audioPlayer {
+    position: fixed;
+    bottom: 0;
+    height: 42px;
+    width: 100%;
+    background: #000;
+    padding: 25px;
+}
+
+#analyser {
+    background: #002D3C;
+    width: 95%;
+    float: left;
+}
+
+.songInfoDiv {
+    display: inline-block;
+}
+
+.audio_box
+{
+    background-color: white;
+    width: 100%;
+}
+
+.songTable
+{
+    font-family: arial, sans-serif;
+  border-collapse: collapse;
+  width: 100%;
+}
+
+td, th {
+  border: 1px solid #dddddd;
+  text-align: left;
+  padding: 8px;
+}
+
+tr:nth-child(even) {
+  background-color: #dddddd;
+}
+
+audio::-internal-media-controls-download-button
+{
+    display: none;
+}
