@@ -1,0 +1,582 @@
+/*FONT FOR THE WEBSITE CAN BE CHANGED*/
+@font-face 
+{
+    font-family: newfont;
+    src: url(Karla-Regular.ttf);
+}
+html 
+{ 
+    background: url(colorful%20smoke.jpeg) no-repeat center center fixed; 
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    font-family: newfont;
+}
+
+/*FIRST LOG IN BUTTON*/
+    /*FIRST LOG IN BUTTON*/
+        /*FIRST LOG IN BUTTON*/
+.loginbutton {
+  /*color: white;
+    background: #73AD21;
+    */
+  color: black;
+  background-color: #9ebfc1;
+  font-weight: bold;
+  padding: 14px 20px;
+  margin: 8px 0;
+  border: none;
+  cursor: pointer;
+  width: 25%;
+  border-radius: 25px;
+  padding: 20px;
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  /* bring your own prefixes */
+  transform: translate(-50%, -50%);
+  opacity: 0.9;
+    
+    /*border: 0.5px solid black;*/
+}
+
+/*FIRST SIGN UP BUTTON*/
+    /*FIRST SIGN UP BUTTON*/
+        /*FIRST SIGN UP BUTTON*/
+.signup {
+  /*color: white;
+    background: #73AD21;
+    */
+  color: black;
+  background-color: #9ebfc1;
+  font-weight: bold;
+  padding: 14px 20px;
+  margin: 8px 0;
+  border: none;
+  cursor: pointer;
+  width: 25%;
+  position: fixed;
+  padding: 20px;   
+  top: 60%;
+  left: 50%;
+  /* bring your own prefixes */
+  transform: translate(-50%, -50%);
+    /*border: 0.5px solid black;*/
+  opacity: 0.9;
+}
+
+/*FIRST ABOUT BUTTON*/
+    /*FIRST ABOUT BUTTON*/
+        /*FIRST ABOUT BUTTON*/
+.aboutbutton {
+  /*color: white;
+    background: #73AD21;
+    */
+    
+  color: black;
+  background-color: #9ebfc1;
+  font-weight: bold;
+  padding: 14px 20px;
+  border-radius: 25px;
+  padding: 20px; 
+  margin: 8px 0;
+  border: none;
+  cursor: pointer;
+  width: 25%;
+  position: fixed;
+  top: 70%;
+  left: 50%;
+  /* bring your own prefixes */
+  transform: translate(-50%, -50%);
+    /*border: 0.5px solid black;*/
+  opacity: 0.9;
+}
+
+
+
+/*LOGIN BUTTON MINI PAGE*/
+    /*LOGIN BUTTON MINI PAGE*/
+        /*LOGIN BUTTON MINI PAGE*/
+            /*LOGIN BUTTON MINI PAGE*/
+                /*LOGIN BUTTON MINI PAGE*/
+                    /*LOGIN BUTTON MINI PAGE*/
+                        /*LOGIN BUTTON MINI PAGE*/
+                            /*LOGIN BUTTON MINI PAGE*/
+/* The Modal (background) */
+.modal {
+  display: none; /* Hidden by default */
+  position: fixed; /* Stay in place */
+  z-index: 1; /* Sit on top */
+  left: 0;
+  top: 0;
+  width: 100%; /* Full width */
+  height: 100%; /* Full height */
+  overflow: auto; /* Enable scroll if needed */
+  background-color: rgb(0,0,0); /* Fallback color */
+  background-color: rgba(0,0,0,0.4); /* Black w/ opacity */
+  padding-top: 60px;
+}
+
+/* Modal Content/Box */
+.modal-content {
+  background-color: #C1D8D0;
+  margin: 5px auto; /* 15% from the top and centered */
+  border: 1px solid #404040;
+  width: 60%;/* Could be more or less, depending on screen size */
+    
+}
+
+/* The Close Button */
+.close {
+  /* Position it in the top right corner outside of the modal */
+  position: absolute;
+  right: 25px;
+  top: 0; 
+  color: white;
+  font-size: 35px;
+  font-weight: bold;
+}
+
+/* Close button on hover */
+.close:hover,
+.close:focus {
+  color: #f44336;
+  cursor: pointer;
+}
+
+/* Add Zoom Animation */
+.animate {
+  -webkit-animation: animatezoom 0.6s;
+  animation: animatezoom 0.6s
+}
+
+@-webkit-keyframes animatezoom {
+  from {-webkit-transform: scale(0)} 
+  to {-webkit-transform: scale(1)}
+}
+
+@keyframes animatezoom {
+  from {transform: scale(0)} 
+  to {transform: scale(1)}
+}
+
+/* Bordered form */
+form {
+  border: 3px solid #f1f1f1;
+}
+
+/* Full-width inputs */
+input[type=text], input[type=password] {
+  width: 100%;
+  padding: 12px 20px;
+  margin: 8px 0;
+  display: inline-block;
+  border: 1px solid #ccc;
+  box-sizing: border-box;
+}
+
+/* Set a style for all buttons */
+button {
+  background-color: #73AD21;
+  color: white;
+  padding: 14px 20px;
+    border-radius: 25px;
+  margin: 8px 0;
+  border: none;
+  cursor: pointer;
+  width: 65%;
+}
+
+.picture:hover
+{
+    opacity: 0.7;
+}
+.centered {
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  /* bring your own prefixes */
+  transform: translate(-50%, -50%);
+}
+
+/* Add a hover effect for buttons */
+button:hover {
+  opacity: 0.7;
+}
+
+/* Extra style for the cancel button (red) */
+.cancelbtn {
+  color: white;
+  padding: 14px 20px;
+    border-radius: 25px;
+  margin: 8px 0;
+  border: none;
+  cursor: pointer;
+  width:33%;
+  background-color: #f44336;
+}
+
+/* Center the avatar image inside this container */
+.imgcontainer {
+  text-align: center;
+  margin: 24px 0 12px 0;
+}
+
+/* Avatar image 
+img.avatar {
+  width: 40%;
+  border-radius: 50%;
+}*/
+
+/* Add padding to containers */
+.container {
+  padding: 16px;
+}
+
+/* The "Forgot password" text */
+span.psw {
+  float: right;
+  padding-top: 16px;
+}
+
+/* Change styles for span and cancel button on extra small screens */
+@media screen and (max-width: 300px) {
+  span.psw {
+    display: block;
+    float: none;
+  }
+  .cancelbtn {
+    width: 100%;
+  }
+}
+
+.logo
+{
+    position: fixed;
+  top: 23%;
+  left: 50%;
+    width: 300px;
+  /* bring your own prefixes */
+  transform: translate(-50%, -50%);
+}
+
+
+
+
+/*ABOUT US BUTTON MINI PAGE*/
+    /*ABOUT US BUTTON MINI PAGE*/
+        /*ABOUT US BUTTON MINI PAGE*/
+            /*ABOUT US BUTTON MINI PAGE*/
+                /*ABOUT US BUTTON MINI PAGE*/
+                    /*ABOUT US BUTTON MINI PAGE*/
+                        /*ABOUT US BUTTON MINI PAGE*/
+                            /* The Modal (background) */
+.modal2 {
+  display: none; /* Hidden by default */
+  position: fixed; /* Stay in place */
+  z-index: 1; /* Sit on top */
+  left: 0;
+  top: 0;
+  width: 100%; /* Full width */
+  height: 100%; /* Full height */
+  overflow: auto; /* Enable scroll if needed */
+  background-color: rgb(0,0,0); /* Fallback color */
+  background-color: rgba(0,0,0,0.4); /* Black w/ opacity */
+  padding-top: 60px;
+}
+
+/* Modal Content/Box */
+.modal-content2 {
+  background-color: #C1D8D0;
+  margin: 5px auto; /* 15% from the top and centered */
+  border: 1px solid #404040;
+  width: 60%;/* Could be more or less, depending on screen size */
+    
+}
+
+/* The Close Button */
+.close2 {
+  /* Position it in the top right corner outside of the modal */
+  position: absolute;
+  right: 25px;
+  top: 0; 
+  color: white;
+  font-size: 35px;
+  font-weight: bold;
+}
+
+/* Close button on hover */
+.close2:hover,
+.close2:focus {
+  color: #9ebfc1;
+  cursor: pointer;
+}
+
+/* Add Zoom Animation */
+.animate2 {
+  -webkit-animation: animatezoom 0.6s;
+  animation: animatezoom 0.6s
+}
+
+@-webkit-keyframes animatezoom {
+  from {-webkit-transform: scale(0)} 
+  to {-webkit-transform: scale(1)}
+}
+
+@keyframes animatezoom {
+  from {transform: scale(0)} 
+  to {transform: scale(1)}
+}
+
+/* Set a style for all buttons */
+button2 {
+  background-color: #73AD21;
+  color: white;
+  padding: 14px 20px;
+    border-radius: 25px;
+  margin: 8px 0;
+  border: none;
+  cursor: pointer;
+  width: 65%;
+}
+
+.centered2 {
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  /* bring your own prefixes */
+  transform: translate(-50%, -50%);
+}
+
+/* Add a hover effect for buttons */
+button2:hover {
+  opacity: 0.7;
+    color: black;
+}
+
+/* Extra style for the cancel button (red) */
+.cancelbtn2 {
+  color: white;
+  padding: 14px 20px;
+  border-radius: 25px;
+  margin: 8px 0;
+  border: none;
+  cursor: pointer;
+  width:33%;
+  background-color: #f44336;
+  align-content: center;
+}
+
+/* Center the avatar image inside this container */
+.imgcontainer2 {
+  text-align: center;
+  margin: 24px 0 0 0;
+}
+
+/* Avatar image 
+img.avatar {
+  width: 40%;
+  border-radius: 50%;
+}*/
+
+/* Add padding to containers */
+.container2 {
+    margin: 0 24px 0 24px;
+}
+
+/* The "Forgot password" text */
+span2.psw {
+  float: right;
+  padding-top: 16px;
+}
+
+/* Change styles for span and cancel button on extra small screens */
+@media screen and (max-width: 300px) {
+  span2.psw {
+    display: block;
+    float: none;
+  }
+  .cancelbtn2 {
+    width: 100%;
+  }
+}
+
+.logo2
+{
+    position: fixed;
+  top: 23%;
+  left: 50%;
+    width: 300px;
+  /* bring your own prefixes */
+  transform: translate(-50%, -50%);
+}
+
+
+
+
+
+/*LOGIN BUTTON MINI PAGE*/
+    /*LOGIN BUTTON MINI PAGE*/
+        /*LOGIN BUTTON MINI PAGE*/
+            /*LOGIN BUTTON MINI PAGE*/
+                /*LOGIN BUTTON MINI PAGE*/
+                    /*LOGIN BUTTON MINI PAGE*/
+                        /*LOGIN BUTTON MINI PAGE*/
+                            /*LOGIN BUTTON MINI PAGE*/
+/* The Modal (background) */
+.modal3 {
+  display: none; /* Hidden by default */
+  position: fixed; /* Stay in place */
+  z-index: 1; /* Sit on top */
+  left: 0;
+  top: 0;
+  width: 100%; /* Full width */
+  height: 100%; /* Full height */
+  overflow: auto; /* Enable scroll if needed */
+  background-color: rgb(0,0,0); /* Fallback color */
+  background-color: rgba(0,0,0,0.4); /* Black w/ opacity */
+  padding-top: 60px;
+}
+
+/* Modal Content/Box */
+.modal-content3 {
+  background-color: #C1D8D0;
+  margin: 5px auto; /* 15% from the top and centered */
+  border: 1px solid #404040;
+  width: 60%;/* Could be more or less, depending on screen size */
+    
+}
+
+/* The Close Button */
+.close3 {
+  /* Position it in the top right corner outside of the modal */
+  position: absolute;
+  right: 25px;
+  top: 0; 
+  color: white;
+  font-size: 35px;
+  font-weight: bold;
+}
+
+/* Close button on hover */
+.close3:hover,
+.close3:focus {
+  color: #f44336;
+  cursor: pointer;
+}
+
+/* Add Zoom Animation */
+.animate {
+  -webkit-animation: animatezoom 0.6s;
+  animation: animatezoom 0.6s
+}
+
+@-webkit-keyframes animatezoom {
+  from {-webkit-transform: scale(0)} 
+  to {-webkit-transform: scale(1)}
+}
+
+@keyframes animatezoom {
+  from {transform: scale(0)} 
+  to {transform: scale(1)}
+}
+
+/* Bordered form */
+form3 {
+  border: 3px solid #f1f1f1;
+}
+
+/* Full-width inputs */
+input[type=text], input[type=password] {
+  width: 100%;
+  padding: 12px 20px;
+  margin: 8px 0;
+  display: inline-block;
+  border: 1px solid #ccc;
+  box-sizing: border-box;
+}
+
+/* Set a style for all buttons */
+button3 {
+  background-color: #73AD21;
+  color: white;
+  padding: 14px 20px;
+    border-radius: 25px;
+  margin: 8px 0;
+  border: none;
+  cursor: pointer;
+  width: 65%;
+}
+
+.picture:hover
+{
+}
+.centered {
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  /* bring your own prefixes */
+  transform: translate(-50%, -50%);
+}
+
+/* Add a hover effect for buttons */
+button3:hover {
+  opacity: 0.7;
+}
+
+/* Extra style for the cancel button (red) */
+.cancelbtn3 {
+  color: white;
+  padding: 14px 20px;
+    border-radius: 25px;
+  margin: 8px 0;
+  border: none;
+  cursor: pointer;
+  width:33%;
+  background-color: #f44336;
+}
+
+/* Center the avatar image inside this container */
+.imgcontainer3 {
+  text-align: center;
+  margin: 24px 0 12px 0;
+}
+
+/* Avatar image 
+img.avatar {
+  width: 40%;
+  border-radius: 50%;
+}*/
+
+/* Add padding to containers */
+.container3 {
+  padding: 16px;
+}
+
+/* The "Forgot password" text */
+span.psw {
+  float: right;
+  padding-top: 16px;
+}
+
+/* Change styles for span and cancel button on extra small screens */
+@media screen and (max-width: 300px) {
+  span.psw {
+    display: block;
+    float: none;
+  }
+  .cancelbtn {
+    width: 100%;
+  }
+}
+
+.logo3
+{
+    position: fixed;
+  top: 23%;
+  left: 50%;
+    width: 300px;
+  /* bring your own prefixes */
+  transform: translate(-50%, -50%);
+}

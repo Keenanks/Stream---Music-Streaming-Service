@@ -1,0 +1,238 @@
+.tabs {
+  overflow: hidden;
+  border: 1px solid #ccc;
+  background-color: dimgrey;
+  border: none;
+  text-align: center;
+}
+
+/* Style the buttons that are used to open the tab content */
+.buttonTab {
+  justify-content: center;
+  display: inline-block;
+  background-color: #9ebfc1;
+  color: white;
+  padding: 14px 20px;
+    border-radius: 25px;
+  margin: 8px 0;
+  border: none;
+  cursor: pointer;
+  width: 30%;
+  transition: 0.3s;
+}
+
+/* Change background color of buttons on hover */
+.buttonTab:hover {
+  background-color: cadetblue;
+}
+
+/* Create an active/current tablink class */
+.buttonTab.active {
+  background-color: cadetblue;
+}
+
+#uploadBtn {
+    justify-content: center;
+  display: inline-block;
+  background-color: #9ebfc1;
+  color: white;
+  padding: 14px 20px;
+    border-radius: 25px;
+  margin: 8px 0;
+  border: none;
+  cursor: pointer;
+  width: 10%;
+  transition: 0.3s;
+}
+
+#uploadBtn:hover {
+    background-color: cadetblue;
+}
+
+/* Style the tab content*/
+.content {
+  display: none;
+  padding: 6px 12px;
+  border: none;
+  border-top: none;
+}
+
+#helpArtistBtn {
+    justify-content: center;
+  display: inline-block;
+  background-color: #9ebfc1;
+  color: white;
+  padding: 14px 20px;
+    border-radius: 25px;
+  margin: 8px 0;
+  border: none;
+  cursor: pointer;
+  width: 10%;
+  transition: 0.3s;
+}
+
+#helpArtistBtn:hover {
+    background-color: cadetblue;
+}
+.modal {
+  display: none; /* Hidden by default */
+  position: fixed; /* Stay in place */
+  z-index: 1; /* Sit on top */
+  left: 0;
+  top: 0;
+  width: 100%; /* Full width */
+  height: 100%; /* Full height */
+  overflow: auto; /* Enable scroll if needed */
+  background-color: rgb(0,0,0); /* Fallback color */
+  background-color: rgba(0,0,0,0.4); /* Black w/ opacity */
+  padding-top: 60px;
+}
+
+/* Modal Content/Box */
+.modal-content {
+  background-color: #C1D8D0;
+  margin: 5px auto; /* 15% from the top and centered */
+  border: 1px solid #404040;
+  width: 60%;/* Could be more or less, depending on screen size */
+    
+}
+
+/* The Close Button */
+.close {
+  /* Position it in the top right corner outside of the modal */
+  position: absolute;
+  right: 25px;
+  top: 0; 
+  color: white;
+  font-size: 35px;
+  font-weight: bold;
+}
+
+/* Close button on hover */
+.close:hover,
+.close:focus {
+  color: #f44336;
+  cursor: pointer;
+}
+
+/* Add Zoom Animation */
+.animate {
+  -webkit-animation: animatezoom 0.6s;
+  animation: animatezoom 0.6s
+}
+
+@-webkit-keyframes animatezoom {
+  from {-webkit-transform: scale(0)} 
+  to {-webkit-transform: scale(1)}
+}
+
+@keyframes animatezoom {
+  from {transform: scale(0)} 
+  to {transform: scale(1)}
+}
+
+/* Bordered form */
+form {
+  border: 3px solid #f1f1f1;
+}
+
+/* Full-width inputs */
+input[type=file] {
+  width: 100%;
+  padding: 12px 20px;
+  margin: 8px 0;
+  display: inline-block;
+  border: 1px solid #ccc;
+  box-sizing: border-box;
+}
+
+/* Set a style for all buttons */
+.modalBtn {
+  background-color: #9ebfc1;
+  color: white;
+  padding: 14px 20px;
+    border-radius: 25px;
+  margin: 8px 0;
+  border: none;
+  cursor: pointer;
+  width: 65%;
+}
+/*
+.picture:hover
+{
+    opacity: 0.7;
+}
+.centered {
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  /* bring your own prefixes
+  transform: translate(-50%, -50%);
+}
+*/
+/* Add a hover effect for buttons */
+.modalBtn:hover {
+  background-color: cadetblue;
+  opacity: 0.7;
+}
+
+/* Extra style for the cancel button (red) */
+.cancelbtn {
+  color: white;
+  padding: 14px 20px;
+    border-radius: 25px;
+  margin: 8px 0;
+  border: none;
+  cursor: pointer;
+  width:33%;
+  background-color: #f44336;
+}
+
+/* Center the avatar image inside this container */
+.imgcontainer {
+  text-align: center;
+  margin: 24px 0 12px 0;
+}
+
+/* Avatar image 
+img.avatar {
+  width: 40%;
+  border-radius: 50%;
+}*/
+
+/* Add padding to containers */
+.container {
+  padding: 16px;
+}
+
+/* The "Forgot password" text */
+span.psw {
+  float: right;
+  padding-top: 16px;
+}
+
+/* Change styles for span and cancel button on extra small screens */
+@media screen and (max-width: 300px) {
+  span.psw {
+    display: block;
+    float: none;
+  }
+  .cancelbtn {
+    width: 100%;
+  }
+}
+
+.modalLogo
+{
+    position: fixed;
+  top: 23%;
+  left: 50%;
+    width: 300px;
+  /* bring your own prefixes */
+  transform: translate(-50%, -50%);
+}
+
+
+
+
+

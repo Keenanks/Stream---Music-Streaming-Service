@@ -1,0 +1,8 @@
+Joseph was here
+<<<<<<< HEAD
+Keenan is testing if there's a contradiction on the second line
+=======
+Reed was here
+>>>>>>> e693e115ad5382f4fada33d696e6dc3ebfd073ec
+testing what -i does
+Testing something else
